@@ -16,6 +16,7 @@ y,
 test_size=0.2,
 random_state=42
 )
+
 linear_model = LinearRegression()
 linear_model.fit(X_train, y_train)
 linear_pred = linear_model.predict(X_test)
@@ -37,6 +38,7 @@ plt.plot(
 )
 
 plt.xlabel("Actual Exam Score")
+
 plt.ylabel("Predicted Exam Score")
 plt.title("Linear Regression: Actual vs Predicted")
 
