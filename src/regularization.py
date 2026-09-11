@@ -3,6 +3,7 @@ import pandas as pd
 df = pd.read_csv("data/student_performance_cleaned.csv")
 
 print(df.head())
+
 print(df.columns)
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression, Ridge, Lasso
